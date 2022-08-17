@@ -1,0 +1,74 @@
+*,body{
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%; 
+}
+
+.Heading{
+    margin: auto;
+    padding: 0.5%;
+}
+
+.Heading h1{
+    color:rgb(95, 0, 158);
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+
+.Navbar{
+    width: 100%;
+    height: 20%;
+    margin: none;
+    display: inline-flex;
+    background-color: rgb(95, 0, 158);
+    font-family: 'Playfair Display', serif;
+}
+
+.buttons{
+    width:80%;
+    margin:10px 5%;
+    font-family: 'Playfair Display', serif;
+}
+
+.Navbar h4{
+    width: 20%;
+    margin: 0px 20px;
+    font-size: 18px;
+    color:white;
+    padding:10px;
+    letter-spacing: 1px;
+
+}
+
+.buttons button{
+    margin: 0px 30px;
+    color:white;
+    background: none;
+    border:none;
+    font-size:18px;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    outline: none;
+}
+
+.buttons button:hover{
+    color: rgb(197, 0, 236);
+}
+
+.wrapper1{
+    position: absolute;
+    margin:5vh 0 0 10vw;
+}
+
+.bars{
+    display:inline-block;
+    width:2px;
+    background: blueviolet;
+    margin:0px 1px;
+}
